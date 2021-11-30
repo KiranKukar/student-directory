@@ -1,3 +1,4 @@
+# first we print the header and the list of students on seperate lines
 puts "The students of Villains Academyy"
 puts "-----------"
 puts "Dr. Hannibal Lecter"
@@ -11,6 +12,7 @@ puts "Freddy Krueger"
 puts "The Joker"
 puts "Joffrey Baratheon"
 puts "Norman Bates"
+# Then we print the count of students on one line
 print "Overall, we have "
 print 11
 puts " great students"
