@@ -48,6 +48,7 @@ def print_menu
     puts "2. Show the student"
     puts "3. Save the list to students.csv"
     puts "4. Load the list from students.csv"
+    puts "5. Read the source code of this file"
     puts "9. Exit"
 end
 
@@ -63,6 +64,8 @@ def process(selection)
     when "4"
         filename = select_filename
         load_students(filename)
+    when "5"
+        puts File.read(__FILE__)
     when "9"
         exit
     else
